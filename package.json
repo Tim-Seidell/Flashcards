@@ -1,0 +1,22 @@
+{
+  "name": "flashcards",
+  "version": "1.0.0",
+  "description": "Flashcard studying application",
+  "main": "main.js",
+  "scripts": {
+        "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tim-Seidell/Flashcards.git"
+  },
+  "author": "Tim Seidell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tim-Seidell/Flashcards/issues"
+  },
+  "homepage": "https://github.com/Tim-Seidell/Flashcards#readme",
+  "devDependencies": {
+    "electron": "^23.1.4"
+  }
+}
