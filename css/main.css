@@ -4,11 +4,13 @@
     padding-left: 2%;
     padding-right: 2%;
     font-size: 15px;
+    margin: auto;
     margin-top: 1%;
     border-style: none;
     border-radius: 8px;
     background-color: #222222;
     color: white;
+    display: block;
 }
 
 .btn:hover {
@@ -17,6 +19,13 @@
 
 .btn:active {
     background-color: rgb(132, 132, 132);
+}
+
+
+
+.card-hr {
+    width: 80%;
+    border-style: 1px solid #ff0000;
 }
 
 .card {
@@ -33,9 +42,13 @@
     height: 400px;
 }
 
+
+
 .container {
     text-align: center;
 }
+
+
 
 body {
     background-color: #37474F;

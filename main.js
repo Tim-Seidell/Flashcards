@@ -1,7 +1,6 @@
 const path = require('path')
 const { app, BrowserWindow } = require('electron')
 
-
 const createWindow = () => {
     const win = new BrowserWindow({
       width: 800,
@@ -12,6 +11,8 @@ const createWindow = () => {
     })
   
     win.loadFile('index.html')
+
+    win.webContents.openDevTools()
   }
 
   app.on('window-all-closed', () => {

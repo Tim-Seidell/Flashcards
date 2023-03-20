@@ -11,14 +11,16 @@
     <div class="container">
         <div class="card">
             <h1>Decks</h1>
-            <hr>
-            <div>Deck 1</div>
-            <div>Deck 2</div>
-            <div>Deck 3</div>
-            <div>Deck 4</div>
+            <hr class="card-hr">
+            <div id="deck-list">
+                <button class="btn">Deck 1</button>
+                <button class="btn">Deck 2</button>
+                <button class="btn">Deck 3</button>
+                <button class="btn">Deck 4</button>
+            </div>
         </div>
 
-        <button class="btn">New Deck</button>
+        <button id="new-deck-btn" class="btn">New Deck</button>
     </div>
 
     <!-- We are using Node.js <span id="node-version"></span>,
@@ -26,6 +28,6 @@
     and Electron <span id="electron-version"></span>. -->
     
     <!-- scripts here -->
-
+    <script src="js/newDeck.js"></script>
   </body>
 </html>
