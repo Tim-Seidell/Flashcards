@@ -6,18 +6,34 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <title>Flashcards</title>
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/modal.css" type="text/css">
   </head>
   <body>
     <div class="container">
         <div class="card">
             <h1>Decks</h1>
             <hr class="card-hr">
-            <div id="deck-list">
-                <button class="btn">Deck 1</button>
-                <button class="btn">Deck 2</button>
-                <button class="btn">Deck 3</button>
-                <button class="btn">Deck 4</button>
+            <div class="scrollable">
+                <div id="deck-list">
+                    <!-- <button class="btn deck-btn open-deck-btn">Deck 1</button>
+                    <button class="btn deck-btn open-deck-btn">Deck 2</button>
+                    <button class="btn deck-btn open-deck-btn">Deck 3</button>
+                    <button class="btn deck-btn open-deck-btn">Deck 4</button> -->
+                </div>
             </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1>New Deck</h1>
+                <input type="text" id="new-deck-name" autofocus>
+                <input type="submit" id="new-deck-submit-btn" value="Create">
+            </div>
+        
         </div>
 
         <button id="new-deck-btn" class="btn">New Deck</button>

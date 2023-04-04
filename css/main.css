@@ -11,6 +11,11 @@
     background-color: #222222;
     color: white;
     display: block;
+    text-decoration: none;
+}
+
+.deck-btn {
+    width: 80%;
 }
 
 .btn:hover {
@@ -21,7 +26,10 @@
     background-color: rgb(132, 132, 132);
 }
 
-
+.scrollable {
+    height: 300px;
+    overflow-y: auto;
+}
 
 .card-hr {
     width: 80%;
@@ -51,6 +59,6 @@
 
 
 body {
-    background-color: #37474F;
+    background-color: #4f4f4f;
     font-family: Arial, Helvetica, sans-serif;
 }
